@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/the-death-of-socrates-jean-jacques-augustin-raymond-aubert.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="penemuan.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Penemuan</a>
+    <a href="keluarga.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> keluarga</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#penemuan" class="w3-bar-item w3-button" onclick="toggleFunction()">Penemuan</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- INI BATASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Kematiannya karena kuatnya pendiriannya.</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Socrates<br>Death</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Keberanian Socrates Menjemput Ajal</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Tentang Kematian Socrates</span></h5>
+    <p>Socrates, seorang filsuf Yunani, meninggal dunia pada usia 70 tahun “secara tidak wajar”. Ia harus mengakhiri hidupnya dengan minum racun atas putusan pengadilan Athena, karena dituduh “mengesampingkan dewa-dewa yang menjadi pujaan negara-kota itu, dan menyebarkan ajaran baru”. Kegiatannya ini dianggap merusak generasi muda. Tetapi, Socrates sendiri menyatakan tidak pernah melakukan kesalahan yang dituduhkan itu. Malahan sebaliknya, ia sebenarnya harus diberi hadiah karena jasa-jasanya. Namun demikian, ia menolak ajakan kawannya, Crito, untuk melarikan diri. Alasannya, meskipun putusan pengadilan itu bertentangan dengan fakta-nyata, tetapi lembaga tersebut sah. Jadi, putusannya harus dipatuhi. Peristiwa ini terjadi tahun 399 sebelum Masehi. Sebelum Socrates dieksekusi, teman-teman menawarkan untuk menyuap para penjaga dan menyelamatkannya sehingga ia bisa melarikan diri ke pengasingan. Dia menolak, menyatakan bahwa dia tidak takut akan kematian, merasa dia tidak akan menjadi lebih baik jika berada di pengasingan dan mengatakan dia masih warga negara Athena yang loyal, bersedia untuk mematuhi hukumnya, bahkan orang-orang yang mengutuknya sampai mati.
+
+Plato menggambarkan eksekusi Socrates dalam dialog Phaedo-nya: Socrates meminum campuran hemlock tanpa ragu-ragu. Rasa kebas perlahan merayap masuk ke dalam tubuhnya hingga mencapai jantungnya. Sesaat sebelum napas terakhirnya, Socrates menggambarkan kematiannya sebagai pelepasan jiwa dari tubuh.</p>
+   
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>Socrates died "unreasonably"</p>
+    </div>
+    <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjLgbayrJDhAhWOWysKHaMaBAgQjRx6BAgBEAU&url=http%3A%2F%2Fwww.deathdyinggriefandmourning.com%2FDeath-Dying-Grief-Mourning%2F10-Plato%2CPhaedo-Death-Socrates.htm&psig=AOvVaw3oOKKPyZNPkL2PpGlz70-M&ust=1553157720216859" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
