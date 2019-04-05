@@ -33,14 +33,11 @@ body, html {
 </style>
 
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Athena adalah sebuah ruang kelas</span>
-  </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">Filsafat Socrates</span>
+    <span class="w3-black" style="font-size:90px">Filsafat Socrates</span>
   </div>
   <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white"> Kearifan Konvensional Yunani</span>
+    <span class="w3-tag">Diskusi dengan Muridnya</span>
   </div>
 </header>
 
@@ -79,7 +76,7 @@ body, html {
         <p> Filsafat socrates memberi banyak <br> kontribusi dalam bidang logika formal,etika (filsafat moral),dan epistemology (cabang filsafat tentang teori pengetahuan).</p>
 
        <p>Walaupun demikian, socrates tidak pernah menuliskan filosafatnya sehingga semua pengetahuan kita tentang filsafatnya berasal dari catatan dan buku yang ditulis oleh muridnya dan lawannya.<br>
-       Oleh karena ada banyak interpretasi dari socrates yang dituliskan,kita tidak bisa pasti siapakah socrates itu.</p>
+       Oleh karena ada banyak interpretasi dari socrates yang dituliskan,kita tidak bisa pasti siapakah socrates itu. <a href="#c1">(1)</a></p>
 
        <p>
       </div>
@@ -92,15 +89,38 @@ body, html {
       <p> Dalam karya Plato (salah satu murid socrates), Socrates digambarkan sebagai seseorang yang membuat orang<br> disekitarnya terkesima bukan karena dia menyebarluaskan keyakinannya,ataupun membuat penemuan ilmiah yang mengancam<br> status quo,tetapi karena dia mempertanyakan assumsi dan membuat orang merasa tidak yakin akan identitas mereka;narasi hidup dan keyakinan mereka.
       </p>
 
-      <p> Dalam buku "Apology" karya Plato terdapat pidato Socrates saat sedang dalam pengadilan. Pidato tersebut singkat,namun penuh makna.Ia memulai dengan menyebutkan bahwa lawannya sangat siap dan akan berpidato dengan indah,namun yang diucapkan merupakan kebohongan. Sendangkan ia tidak banyak persiapan tetapi yang dia ucapkan adalah kebenaran.</p>
+      <p> Dalam buku "Apology" karya Plato terdapat pidato Socrates saat sedang dalam pengadilan. Pidato tersebut singkat,namun penuh makna.Ia memulai dengan menyebutkan bahwa lawannya sangat siap dan akan berpidato dengan indah,namun yang diucapkan merupakan kebohongan. Sendangkan ia tidak banyak persiapan tetapi yang dia ucapkan adalah kebenaran.<a href="https://fivebooks.com/best-books/socrates/">(2)</a> <></p>
 
-      <p>
+      <h5> Citations:</h5>
+      <ol>
+        <li><a name="c1">https://www.philosophybasics.com/philosophers_socrates.html</a>
 
     
 
 
  </div>
- <div class="w3-container">
-  <p> Penanggung Jawab Halaman: Nayla</p>
+ <!-- Footer -->
+<footer class="w3-light-grey">
+  <p>Ditulis oleh: <a href="https://naylamay.github.io/" title="W3.CSS" target="_blank" class="w3-hover-text-green">Nayla</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
 </body>
 </html>
